@@ -1,0 +1,7 @@
+version: "3.9"
+
+services:
+  denoiser:
+    build: .
+    volumes:
+      - "./examples:/usr/app/examples"
