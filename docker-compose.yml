@@ -2,6 +2,9 @@ version: "3.9"
 
 services:
   denoiser:
+    image: popszer/rnndenoiser:0.0.1
     build: .
+    environment:
+      - INPUT_FILE=noisy.wav  # Copy your input file in the examples directory
     volumes:
       - "./examples:/usr/app/examples"
