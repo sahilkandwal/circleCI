@@ -9,7 +9,7 @@ A dockerized version of [RNNoise](https://github.com/xiph/rnnoise), noise suppre
 ```shell
 docker-compose up
 ```
-3. The denoised file is available at `examples/denoised.dat`
+3. The denoised file is available at `examples/denoised.wav`
 
 
 ### Notes
